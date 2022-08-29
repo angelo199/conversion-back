@@ -4,9 +4,9 @@ import { Module } from '@nestjs/common';
 import { AppController } from './app.controller';
 import { CurrencyController } from './controller/currency/currency.controller';
 import { AppService } from './app.service';
-import { UsersModule } from './users/users.module';
 import { HttpModule } from '@nestjs/axios';
 import { AuthModule } from './modules/auth/auth.module';
+import { UsersModule } from './modules/users/users.module';
 
 @Module({
   imports: [
